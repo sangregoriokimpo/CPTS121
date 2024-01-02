@@ -1,0 +1,43 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gregoryjabido/Desktop/workspaceC/PA6R/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initBoard, symObjAddr: 0x0, symBinAddr: 0x10000179C, symSize: 0xAC }
+  - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: _initBoard, symObjAddr: 0x0, symBinAddr: 0x10000179C, symSize: 0xAC }
+  - { offsetInCU: 0xE5, offset: 0xE5, size: 0x8, addend: 0x0, symName: _copyBoard, symObjAddr: 0xAC, symBinAddr: 0x100001848, symSize: 0xA8 }
+  - { offsetInCU: 0x14F, offset: 0x14F, size: 0x8, addend: 0x0, symName: _integerToDirection, symObjAddr: 0x154, symBinAddr: 0x1000018F0, symSize: 0x88 }
+  - { offsetInCU: 0x185, offset: 0x185, size: 0x8, addend: 0x0, symName: _checkShip, symObjAddr: 0x1EC, symBinAddr: 0x100001988, symSize: 0x158 }
+  - { offsetInCU: 0x247, offset: 0x247, size: 0x8, addend: 0x0, symName: _placeShip, symObjAddr: 0x344, symBinAddr: 0x100001AE0, symSize: 0x60 }
+  - { offsetInCU: 0x2A3, offset: 0x2A3, size: 0x8, addend: 0x0, symName: _tryPlaceShip, symObjAddr: 0x3A4, symBinAddr: 0x100001B40, symSize: 0x70 }
+  - { offsetInCU: 0x303, offset: 0x303, size: 0x8, addend: 0x0, symName: _renderCellToPlayerFleetBoard, symObjAddr: 0x414, symBinAddr: 0x100001BB0, symSize: 0x44 }
+  - { offsetInCU: 0x32B, offset: 0x32B, size: 0x8, addend: 0x0, symName: _renderCellToPlayerEnemyBoard, symObjAddr: 0x458, symBinAddr: 0x100001BF4, symSize: 0x44 }
+  - { offsetInCU: 0x353, offset: 0x353, size: 0x8, addend: 0x0, symName: _displayCell, symObjAddr: 0x49C, symBinAddr: 0x100001C38, symSize: 0x88 }
+  - { offsetInCU: 0x389, offset: 0x389, size: 0x8, addend: 0x0, symName: _displayBoard, symObjAddr: 0x524, symBinAddr: 0x100001CC0, symSize: 0x158 }
+  - { offsetInCU: 0x42B, offset: 0x42B, size: 0x8, addend: 0x0, symName: _checkPlayerBoardHits, symObjAddr: 0x67C, symBinAddr: 0x100001E18, symSize: 0xF4 }
+  - { offsetInCU: 0x49A, offset: 0x49A, size: 0x8, addend: 0x0, symName: _checkPlayerBoardMisses, symObjAddr: 0x770, symBinAddr: 0x100001F0C, symSize: 0xF4 }
+  - { offsetInCU: 0x509, offset: 0x509, size: 0x8, addend: 0x0, symName: _playGameAgainstPlayer, symObjAddr: 0x864, symBinAddr: 0x100002000, symSize: 0x548 }
+  - { offsetInCU: 0x584, offset: 0x584, size: 0x8, addend: 0x0, symName: _playGameAgainstComputer, symObjAddr: 0xDAC, symBinAddr: 0x100002548, symSize: 0x36C }
+  - { offsetInCU: 0x60D, offset: 0x60D, size: 0x8, addend: 0x0, symName: _fileOutputBoard, symObjAddr: 0x1118, symBinAddr: 0x1000028B4, symSize: 0x238 }
+  - { offsetInCU: 0x703, offset: 0x703, size: 0x8, addend: 0x0, symName: _getPlayerName, symObjAddr: 0x1350, symBinAddr: 0x100002AEC, symSize: 0x50 }
+  - { offsetInCU: 0x72D, offset: 0x72D, size: 0x8, addend: 0x0, symName: _promptPlayAgainstComputer, symObjAddr: 0x13A0, symBinAddr: 0x100002B3C, symSize: 0x90 }
+  - { offsetInCU: 0x757, offset: 0x757, size: 0x8, addend: 0x0, symName: _logPlayer, symObjAddr: 0x1430, symBinAddr: 0x100002BCC, symSize: 0x1DC }
+  - { offsetInCU: 0x81F, offset: 0x81F, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x160C, symBinAddr: 0x100002DA8, symSize: 0x1C }
+  - { offsetInCU: 0x835, offset: 0x835, size: 0x8, addend: 0x0, symName: _printFileContents, symObjAddr: 0x1628, symBinAddr: 0x100002DC4, symSize: 0xDC }
+  - { offsetInCU: 0x879, offset: 0x879, size: 0x8, addend: 0x0, symName: _printFileContentsInBlue, symObjAddr: 0x1704, symBinAddr: 0x100002EA0, symSize: 0xF4 }
+  - { offsetInCU: 0x8BD, offset: 0x8BD, size: 0x8, addend: 0x0, symName: _printFileContentsInBlueSmall, symObjAddr: 0x17F8, symBinAddr: 0x100002F94, symSize: 0xC4 }
+  - { offsetInCU: 0x901, offset: 0x901, size: 0x8, addend: 0x0, symName: _displayRules, symObjAddr: 0x18BC, symBinAddr: 0x100003058, symSize: 0x20 }
+  - { offsetInCU: 0x26, offset: 0xC9A, size: 0x8, addend: 0x0, symName: _getVector, symObjAddr: 0x0, symBinAddr: 0x100003078, symSize: 0x124 }
+  - { offsetInCU: 0x75, offset: 0xCE9, size: 0x8, addend: 0x0, symName: _getVector, symObjAddr: 0x0, symBinAddr: 0x100003078, symSize: 0x124 }
+  - { offsetInCU: 0xB9, offset: 0xD2D, size: 0x8, addend: 0x0, symName: _getShipPlace, symObjAddr: 0x124, symBinAddr: 0x10000319C, symSize: 0xDC }
+  - { offsetInCU: 0xEF, offset: 0xD63, size: 0x8, addend: 0x0, symName: _playerTurn, symObjAddr: 0x200, symBinAddr: 0x100003278, symSize: 0x10 }
+  - { offsetInCU: 0x114, offset: 0xD88, size: 0x8, addend: 0x0, symName: _autoShipPlace, symObjAddr: 0x210, symBinAddr: 0x100003288, symSize: 0x58 }
+  - { offsetInCU: 0x14A, offset: 0xDBE, size: 0x8, addend: 0x0, symName: _fireSalvo, symObjAddr: 0x268, symBinAddr: 0x1000032E0, symSize: 0xBC }
+  - { offsetInCU: 0x1A7, offset: 0xE1B, size: 0x8, addend: 0x0, symName: _autoVector, symObjAddr: 0x324, symBinAddr: 0x10000339C, symSize: 0x70 }
+  - { offsetInCU: 0x1DD, offset: 0xE51, size: 0x8, addend: 0x0, symName: _autoFireSalvo, symObjAddr: 0x394, symBinAddr: 0x10000340C, symSize: 0xB4 }
+  - { offsetInCU: 0x23A, offset: 0xEAE, size: 0x8, addend: 0x0, symName: _autoPlaceShip, symObjAddr: 0x448, symBinAddr: 0x1000034C0, symSize: 0x78 }
+  - { offsetInCU: 0x2B2, offset: 0xF26, size: 0x8, addend: 0x0, symName: _placeUserShipsAutomatically, symObjAddr: 0x4C0, symBinAddr: 0x100003538, symSize: 0x98 }
+  - { offsetInCU: 0x2E4, offset: 0xF58, size: 0x8, addend: 0x0, symName: _placeUserShip, symObjAddr: 0x558, symBinAddr: 0x1000035D0, symSize: 0x9C }
+  - { offsetInCU: 0x35C, offset: 0xFD0, size: 0x8, addend: 0x0, symName: _placeUserShips, symObjAddr: 0x5F4, symBinAddr: 0x10000366C, symSize: 0x130 }
+  - { offsetInCU: 0x26, offset: 0x1176, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000379C, symSize: 0x31C }
+  - { offsetInCU: 0x48, offset: 0x1198, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000379C, symSize: 0x31C }
+...
