@@ -1,0 +1,35 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gregoryjabido/Desktop/workspaceC/PA5_redone/PA5R'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _print_game_rules, symObjAddr: 0x0, symBinAddr: 0x1000022D0, symSize: 0x1C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _print_game_rules, symObjAddr: 0x0, symBinAddr: 0x1000022D0, symSize: 0x1C }
+  - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _roll_dice, symObjAddr: 0x1C, symBinAddr: 0x1000022EC, symSize: 0x70 }
+  - { offsetInCU: 0x96, offset: 0x96, size: 0x8, addend: 0x0, symName: _reroll_dice, symObjAddr: 0x8C, symBinAddr: 0x10000235C, symSize: 0xE8 }
+  - { offsetInCU: 0xE4, offset: 0xE4, size: 0x8, addend: 0x0, symName: _display_dice, symObjAddr: 0x174, symBinAddr: 0x100002444, symSize: 0x94 }
+  - { offsetInCU: 0x124, offset: 0x124, size: 0x8, addend: 0x0, symName: _check_scorecard, symObjAddr: 0x208, symBinAddr: 0x1000024D8, symSize: 0x70 }
+  - { offsetInCU: 0x168, offset: 0x168, size: 0x8, addend: 0x0, symName: _sort_die, symObjAddr: 0x278, symBinAddr: 0x100002548, symSize: 0x84 }
+  - { offsetInCU: 0x1A8, offset: 0x1A8, size: 0x8, addend: 0x0, symName: _init_scorecard, symObjAddr: 0x2FC, symBinAddr: 0x1000025CC, symSize: 0x18 }
+  - { offsetInCU: 0x1E8, offset: 0x1E8, size: 0x8, addend: 0x0, symName: _reroll, symObjAddr: 0x314, symBinAddr: 0x1000025E4, symSize: 0x8 }
+  - { offsetInCU: 0x201, offset: 0x201, size: 0x8, addend: 0x0, symName: _prompt, symObjAddr: 0x31C, symBinAddr: 0x1000025EC, symSize: 0x140 }
+  - { offsetInCU: 0x229, offset: 0x229, size: 0x8, addend: 0x0, symName: _display_scorecard, symObjAddr: 0x45C, symBinAddr: 0x10000272C, symSize: 0xA4 }
+  - { offsetInCU: 0x278, offset: 0x278, size: 0x8, addend: 0x0, symName: _initialize_scorecard, symObjAddr: 0x500, symBinAddr: 0x1000027D0, symSize: 0x54 }
+  - { offsetInCU: 0x2B8, offset: 0x2B8, size: 0x8, addend: 0x0, symName: _initialize_frequencytable, symObjAddr: 0x554, symBinAddr: 0x100002824, symSize: 0x54 }
+  - { offsetInCU: 0x2F8, offset: 0x2F8, size: 0x8, addend: 0x0, symName: _determine_score, symObjAddr: 0x5A8, symBinAddr: 0x100002878, symSize: 0x660 }
+  - { offsetInCU: 0x40A, offset: 0x40A, size: 0x8, addend: 0x0, symName: _Aces, symObjAddr: 0xC3C, symBinAddr: 0x100002F0C, symSize: 0x2C }
+  - { offsetInCU: 0x443, offset: 0x443, size: 0x8, addend: 0x0, symName: _Twos, symObjAddr: 0xC68, symBinAddr: 0x100002F38, symSize: 0x2C }
+  - { offsetInCU: 0x47C, offset: 0x47C, size: 0x8, addend: 0x0, symName: _Threes, symObjAddr: 0xC94, symBinAddr: 0x100002F64, symSize: 0x2C }
+  - { offsetInCU: 0x4B5, offset: 0x4B5, size: 0x8, addend: 0x0, symName: _Fours, symObjAddr: 0xCC0, symBinAddr: 0x100002F90, symSize: 0x2C }
+  - { offsetInCU: 0x4EE, offset: 0x4EE, size: 0x8, addend: 0x0, symName: _Fives, symObjAddr: 0xCEC, symBinAddr: 0x100002FBC, symSize: 0x2C }
+  - { offsetInCU: 0x527, offset: 0x527, size: 0x8, addend: 0x0, symName: _Sixes, symObjAddr: 0xD18, symBinAddr: 0x100002FE8, symSize: 0x2C }
+  - { offsetInCU: 0x560, offset: 0x560, size: 0x8, addend: 0x0, symName: _Four_of_akind, symObjAddr: 0xD44, symBinAddr: 0x100003014, symSize: 0x88 }
+  - { offsetInCU: 0x5B6, offset: 0x5B6, size: 0x8, addend: 0x0, symName: _Three_of_akind, symObjAddr: 0xDCC, symBinAddr: 0x10000309C, symSize: 0x84 }
+  - { offsetInCU: 0x60C, offset: 0x60C, size: 0x8, addend: 0x0, symName: _Full_house, symObjAddr: 0xE50, symBinAddr: 0x100003120, symSize: 0xE0 }
+  - { offsetInCU: 0x680, offset: 0x680, size: 0x8, addend: 0x0, symName: _Small_straight, symObjAddr: 0xF30, symBinAddr: 0x100003200, symSize: 0x7C }
+  - { offsetInCU: 0x6D6, offset: 0x6D6, size: 0x8, addend: 0x0, symName: _Large_straight, symObjAddr: 0xFAC, symBinAddr: 0x10000327C, symSize: 0x7C }
+  - { offsetInCU: 0x72C, offset: 0x72C, size: 0x8, addend: 0x0, symName: _Yahtzee, symObjAddr: 0x1028, symBinAddr: 0x1000032F8, symSize: 0x7C }
+  - { offsetInCU: 0x782, offset: 0x782, size: 0x8, addend: 0x0, symName: _Chance, symObjAddr: 0x10A4, symBinAddr: 0x100003374, symSize: 0x6C }
+  - { offsetInCU: 0x7D8, offset: 0x7D8, size: 0x8, addend: 0x0, symName: _play_game, symObjAddr: 0x1110, symBinAddr: 0x1000033E0, symSize: 0x560 }
+  - { offsetInCU: 0x26, offset: 0x9AE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003940, symSize: 0x10C }
+  - { offsetInCU: 0x48, offset: 0x9D0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003940, symSize: 0x10C }
+...
