@@ -1,0 +1,45 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gregoryjabido/Desktop/workspaceC/PA6RF/rules'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initBoard, symObjAddr: 0x0, symBinAddr: 0x1000017EC, symSize: 0xAC }
+  - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: _initBoard, symObjAddr: 0x0, symBinAddr: 0x1000017EC, symSize: 0xAC }
+  - { offsetInCU: 0xE5, offset: 0xE5, size: 0x8, addend: 0x0, symName: _copyBoard, symObjAddr: 0xAC, symBinAddr: 0x100001898, symSize: 0xA8 }
+  - { offsetInCU: 0x14F, offset: 0x14F, size: 0x8, addend: 0x0, symName: _integerToDirection, symObjAddr: 0x154, symBinAddr: 0x100001940, symSize: 0x88 }
+  - { offsetInCU: 0x185, offset: 0x185, size: 0x8, addend: 0x0, symName: _checkShip, symObjAddr: 0x1EC, symBinAddr: 0x1000019D8, symSize: 0x158 }
+  - { offsetInCU: 0x247, offset: 0x247, size: 0x8, addend: 0x0, symName: _placeShip, symObjAddr: 0x344, symBinAddr: 0x100001B30, symSize: 0x60 }
+  - { offsetInCU: 0x2A3, offset: 0x2A3, size: 0x8, addend: 0x0, symName: _tryPlaceShip, symObjAddr: 0x3A4, symBinAddr: 0x100001B90, symSize: 0x70 }
+  - { offsetInCU: 0x303, offset: 0x303, size: 0x8, addend: 0x0, symName: _renderCellToPlayerFleetBoard, symObjAddr: 0x414, symBinAddr: 0x100001C00, symSize: 0x44 }
+  - { offsetInCU: 0x32B, offset: 0x32B, size: 0x8, addend: 0x0, symName: _renderCellToPlayerEnemyBoard, symObjAddr: 0x458, symBinAddr: 0x100001C44, symSize: 0x44 }
+  - { offsetInCU: 0x353, offset: 0x353, size: 0x8, addend: 0x0, symName: _displayCell, symObjAddr: 0x49C, symBinAddr: 0x100001C88, symSize: 0x88 }
+  - { offsetInCU: 0x389, offset: 0x389, size: 0x8, addend: 0x0, symName: _displayBoard, symObjAddr: 0x524, symBinAddr: 0x100001D10, symSize: 0x158 }
+  - { offsetInCU: 0x42B, offset: 0x42B, size: 0x8, addend: 0x0, symName: _checkPlayerBoardHits, symObjAddr: 0x67C, symBinAddr: 0x100001E68, symSize: 0xF4 }
+  - { offsetInCU: 0x49A, offset: 0x49A, size: 0x8, addend: 0x0, symName: _checkPlayerBoardMisses, symObjAddr: 0x770, symBinAddr: 0x100001F5C, symSize: 0xF4 }
+  - { offsetInCU: 0x509, offset: 0x509, size: 0x8, addend: 0x0, symName: _playGameAgainstComputer, symObjAddr: 0x864, symBinAddr: 0x100002050, symSize: 0x4F8 }
+  - { offsetInCU: 0x5A8, offset: 0x5A8, size: 0x8, addend: 0x0, symName: _initFleetHealth, symObjAddr: 0xD5C, symBinAddr: 0x100002548, symSize: 0x38 }
+  - { offsetInCU: 0x5CF, offset: 0x5CF, size: 0x8, addend: 0x0, symName: _placeUserShips, symObjAddr: 0xD94, symBinAddr: 0x100002580, symSize: 0x130 }
+  - { offsetInCU: 0x604, offset: 0x604, size: 0x8, addend: 0x0, symName: _placeUserShipsAutomatically, symObjAddr: 0xEC4, symBinAddr: 0x1000026B0, symSize: 0x98 }
+  - { offsetInCU: 0x639, offset: 0x639, size: 0x8, addend: 0x0, symName: _checkFleetHealth, symObjAddr: 0xF5C, symBinAddr: 0x100002748, symSize: 0xA4 }
+  - { offsetInCU: 0x664, offset: 0x664, size: 0x8, addend: 0x0, symName: _fireSalvo, symObjAddr: 0x1000, symBinAddr: 0x1000027EC, symSize: 0x16C }
+  - { offsetInCU: 0x6E6, offset: 0x6E6, size: 0x8, addend: 0x0, symName: _fileOutputBoard, symObjAddr: 0x116C, symBinAddr: 0x100002958, symSize: 0x238 }
+  - { offsetInCU: 0x7DC, offset: 0x7DC, size: 0x8, addend: 0x0, symName: _autoFireSalvo, symObjAddr: 0x13A4, symBinAddr: 0x100002B90, symSize: 0x164 }
+  - { offsetInCU: 0x85E, offset: 0x85E, size: 0x8, addend: 0x0, symName: _getPlayerName, symObjAddr: 0x1508, symBinAddr: 0x100002CF4, symSize: 0x50 }
+  - { offsetInCU: 0x888, offset: 0x888, size: 0x8, addend: 0x0, symName: _logPlayer, symObjAddr: 0x1558, symBinAddr: 0x100002D44, symSize: 0x1DC }
+  - { offsetInCU: 0x950, offset: 0x950, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x1734, symBinAddr: 0x100002F20, symSize: 0x1C }
+  - { offsetInCU: 0x966, offset: 0x966, size: 0x8, addend: 0x0, symName: _printFileContents, symObjAddr: 0x1750, symBinAddr: 0x100002F3C, symSize: 0xDC }
+  - { offsetInCU: 0x9AA, offset: 0x9AA, size: 0x8, addend: 0x0, symName: _printFileContentsInBlue, symObjAddr: 0x182C, symBinAddr: 0x100003018, symSize: 0xF4 }
+  - { offsetInCU: 0x9EE, offset: 0x9EE, size: 0x8, addend: 0x0, symName: _printFileContentsInBlueSmall, symObjAddr: 0x1920, symBinAddr: 0x10000310C, symSize: 0xC4 }
+  - { offsetInCU: 0xA32, offset: 0xA32, size: 0x8, addend: 0x0, symName: _displayRules, symObjAddr: 0x19E4, symBinAddr: 0x1000031D0, symSize: 0x2C }
+  - { offsetInCU: 0xA48, offset: 0xA48, size: 0x8, addend: 0x0, symName: _getVector, symObjAddr: 0x1A10, symBinAddr: 0x1000031FC, symSize: 0x124 }
+  - { offsetInCU: 0xA90, offset: 0xA90, size: 0x8, addend: 0x0, symName: _getShipPlace, symObjAddr: 0x1B34, symBinAddr: 0x100003320, symSize: 0xDC }
+  - { offsetInCU: 0xAC9, offset: 0xAC9, size: 0x8, addend: 0x0, symName: _playerTurn, symObjAddr: 0x1C10, symBinAddr: 0x1000033FC, symSize: 0x10 }
+  - { offsetInCU: 0xAF0, offset: 0xAF0, size: 0x8, addend: 0x0, symName: _autoShipPlace, symObjAddr: 0x1C20, symBinAddr: 0x10000340C, symSize: 0x58 }
+  - { offsetInCU: 0xB29, offset: 0xB29, size: 0x8, addend: 0x0, symName: _checkShipHit, symObjAddr: 0x1C78, symBinAddr: 0x100003464, symSize: 0x16C }
+  - { offsetInCU: 0xB90, offset: 0xB90, size: 0x8, addend: 0x0, symName: _checkShipHitShip, symObjAddr: 0x1DE4, symBinAddr: 0x1000035D0, symSize: 0x17C }
+  - { offsetInCU: 0xBE4, offset: 0xBE4, size: 0x8, addend: 0x0, symName: _autoVector, symObjAddr: 0x1F74, symBinAddr: 0x100003760, symSize: 0x70 }
+  - { offsetInCU: 0xC1D, offset: 0xC1D, size: 0x8, addend: 0x0, symName: _autoPlaceShip, symObjAddr: 0x1FE4, symBinAddr: 0x1000037D0, symSize: 0x78 }
+  - { offsetInCU: 0xC9C, offset: 0xC9C, size: 0x8, addend: 0x0, symName: _placeUserShip, symObjAddr: 0x205C, symBinAddr: 0x100003848, symSize: 0x9C }
+  - { offsetInCU: 0xD1B, offset: 0xD1B, size: 0x8, addend: 0x0, symName: _initPlayer, symObjAddr: 0x20F8, symBinAddr: 0x1000038E4, symSize: 0x58 }
+  - { offsetInCU: 0x26, offset: 0x10FF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000393C, symSize: 0x1C8 }
+  - { offsetInCU: 0x41, offset: 0x111A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000393C, symSize: 0x1C8 }
+...

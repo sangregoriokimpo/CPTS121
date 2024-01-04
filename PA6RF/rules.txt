@@ -1,0 +1,23 @@
+Battleship is a classic two-player strategy game where each player has a fleet of ships on a grid and takes turns trying to locate and sink the opponent's fleet. The following are the basic rules of Battleship:
+
+**Setup:**
+1. Each player has their own grid (typically 10x10), where they place their ships.
+2. The standard fleet consists of five ships: Carrier (5 cells), Battleship (4 cells), Cruiser (3 cells), Submarine (3 cells), and Destroyer (2 cells).
+3. Players place their ships on the grid vertically or horizontally, but not diagonally.
+4. Ships cannot overlap or extend beyond the boundaries of the grid.
+
+**Gameplay:**
+1. Players take turns calling out coordinates (e.g., "B4") to target a cell on the opponent's grid.
+2. The opponent responds with "hit" if there is a part of a ship at the targeted cell or "miss" if there isn't.
+3. Players mark their own grid with hits and misses to track the progress of the game.
+4. If a player successfully hits every cell of an opponent's ship, that ship is considered sunk.
+5. The game continues until one player's entire fleet is sunk.
+
+**Winning:**
+The first player to sink the entire opponent's fleet wins the game.
+
+**Special Rules:**
+- Some versions of the game allow players to call out coordinates for individual shots, while others use a system of coordinated attacks, such as firing a "salvo" (a group of shots equal to the number of remaining ships).
+- Some variants include special shots, such as "air raids" or "mines."
+
+It's essential to establish the rules before playing, as variations exist, and house rules may be applied. The game often requires a balance of strategy and deduction as players try to locate and sink their opponent's ships.
